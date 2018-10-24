@@ -14,6 +14,7 @@ char* readQuijote()
     f.seekg(0, f.end);
     length = f.tellg();
     f.seekg(0, f.beg);
+    //Copy the text file into a string
     f.read(text, length);
   } else
     throw runtime_error("Can't read the file");

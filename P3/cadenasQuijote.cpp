@@ -1,8 +1,9 @@
 /*
-  Programa que implementa un automata celular finito que acepta cadenas de
-  entrada y las saca por pantalla sin son validas.
-  Para que sean validas tienen que cumplir que lleven H, I, D (1 sola maximo),
-  L (1 sola maximo), A (2 maximo), G, O
+  Program that implemets a finite automate that accepts a text like entry
+  parameter and show by screen every single valid string from the text, that is
+  accepted by the utomate.
+  To be valid, a word has to contain maximum 2 A's, 1 D and 1 L, and can contain
+  whatever other number of H's, I's, G's or O's, in whatever order precised.
 */
 
 #include "headers.hpp"
