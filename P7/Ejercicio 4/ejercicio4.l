@@ -1,5 +1,6 @@
   /*
-    Correct command to compile without warnings:
+    Correct commands to compile without warnings:
+    flex ejercicio4.l
     g++ -x c++ -Wc++11-extensions lex.yy.c
   */
 %{
