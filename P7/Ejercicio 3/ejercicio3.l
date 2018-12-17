@@ -3,7 +3,6 @@
   #include <map>
   #include <string>
   #include <cstring>
-  #include <cctype>
   using namespace std;
   map<string,int> tabla;
 %}
